@@ -24,7 +24,7 @@ The installation requires Administrative access into ManageEngine to configure t
 4. Navigate to the Integration Builder tab and update the xMatters Endpoint to include the new REST Web Service user
 5. Select the Inbound Integration link to update the Inbound Integration for Basic Authentication
 
-##Integration Agent Configuration
+## Integration Agent Configuration
 1. Navigate to the ManageEngine Server
 2. From within the ManageEngine server configure [xMatters Integration Agent](https://support.xmatters.com/hc/en-us/articles/201463419-Integration-Agent-for-xMatters-On-Demand)
 3. Once configured extract the [manageengine.zip](manageengine.zip) to the IAHOME/integrationservices folder
