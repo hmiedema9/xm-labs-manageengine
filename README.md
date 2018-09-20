@@ -34,11 +34,11 @@ The installation requires Administrative access into ManageEngine to configure t
 ## ManageEngine Administration
 1. Navigate to Admin > Custom Triggers
 2. From within Custom Triggers configure a new Trigger with the following:
-    * Action Name: xMattersEvent
-    * Criteria: Per the requirement
-    * Perform Action:
-            * Action Type: Execute Script
-            * Script file to run: cmd /c xMattersEvent.bat "$WORKORDERID"
+* Action Name: xMattersEvent
+* Criteria: Per the requirement
+* Perform Action:
+  * Action Type: Execute Script
+  * Script file to run: cmd /c xMattersEvent.bat "$WORKORDERID"
 
 ## ManageEngine Server Configuration
 1. Navigate to [SDP_HOME]/integration/custom_scripts/ directory and add the [xMattersEvent.bat](xMattersEvent.bat)
