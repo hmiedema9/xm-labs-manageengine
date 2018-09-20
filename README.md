@@ -37,8 +37,8 @@ The installation requires Administrative access into ManageEngine to configure t
     * Action Name: xMattersEvent
     * Criteria: Per the requirement
     * Perform Action:
-          * Action Type: Execute Script
-          * Script file to run: cmd /c xMattersEvent.bat "$WORKORDERID"
+            * Action Type: Execute Script
+            * Script file to run: cmd /c xMattersEvent.bat "$WORKORDERID"
 
 ## ManageEngine Server Configuration
 1. Navigate to [SDP_HOME]/integration/custom_scripts/ directory and add the [xMattersEvent.bat](xMattersEvent.bat)
