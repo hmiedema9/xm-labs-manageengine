@@ -55,7 +55,7 @@ There are four potential points of failure:
     * If the xMattersEvent.bat is successfully executed, the batch file will create a xMattersLog.txt in the `[SDP_HOME]/integration/custom_scripts/` directory.
 
 2. xMattersEvent.bat executing the Integration Agent.
-    * If the xMattersEvent.bat is successfully being invoked, the xMattersLog.txt will display the submission to the Integration Agent. If there appears to be no logging in the Integration Agent indicating that a submission is occurring. The command can be pasted into the CMD or executed by right-clicking the batch file. This will require updating the batch file to contain a miscellaneous work order id.
+    * If the xMattersEvent.bat is successfully being invoked, the xMattersLog.txt will display the submission to the Integration Agent. The command can be pasted into the CMD or executed by right-clicking the batch file. This will require updating the batch file to contain a miscellaneous work order id.
 
 3. Integration Agent communicating with ManageEngine to retrieve the full request details
     * This can be observed and resolved be reviewing the Integration Agent logging
