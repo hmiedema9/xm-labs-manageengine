@@ -1,12 +1,19 @@
 # ManageEngine
 This is a one-way xMatters integration with ManageEngine.
 
+<kbd>
+<a href="https://support.xmatters.com/hc/en-us/community/topics">
+   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</a>
+</kbd>
+
+
 # Pre-Requisites
 * This integration was designed with ManageEngine ServiceDesk Plus version 9.4
 * A server to configure the xMatters Integration Agent
 
 # Files
-* [ManageEngineCommPlan.zip](ManageEngineCommPlan.zip)
+* [ManageEngineWorkflow.zip](ManageEngineWorkflow.zip)
 * [manageengine.zip](manageengine.zip)
 * [xMattersEvent.bat](xMattersEvent.bat)
 * [xMatters Integration Agent](https://support.xmatters.com/hc/en-us/articles/201463419-Integration-Agent-for-xMatters-On-Demand)
@@ -19,7 +26,7 @@ The installation requires Administrative access into ManageEngine to configure t
 
 ## xMatters Configuration
 1. Create a REST Web Service User in xMatters
-2. Navigate to the Developer tab and import the [ManageEngineCommPlan.zip](ManageEngineCommPlan.zip)
+2. Navigate to the Workflows page and import the [ManageEngineWorkflow.zip](ManageEngineWorkflow.zip)
 3. Configure the Form for Web Services and add the REST Web Services role for Sender Permissions
 4. Navigate to the Integration Builder tab and update the xMatters Endpoint to include the new REST Web Service user
 5. Select the Inbound Integration link to update the Inbound Integration for Basic Authentication
